@@ -23,7 +23,7 @@ En effet, lorsqu’un modèle est trop complexe et s’ajuste trop étroitement 
 
 En francais facile, il y a un risque de tirer des conclusions trop hâtives à partir d’un ensemble limité d’informations, ce qui peut conduire à des erreurs lorsque ces conclusions sont appliquées à des situations plus générales ou à de nouvelles données.
 
-![Source — https://www.freecodecamp.org/](https://cdn-images-1.medium.com/max/800/0*guBo5AYxPB4PI9o3.jpg align="left")
+![Source — https://www.freecodecamp.org/](https://cdn-images-1.medium.com/max/800/0*guBo5AYxPB4PI9o3.jpg align="center")
 
 Nous verrons plutard une autre explication plus courante mais pour le moment la question que l’on doit se poser c’est ***qu’est-ce qui est à l’origine de l’overfitting?***
 
@@ -40,7 +40,7 @@ Généralement l’overfitting est lié soit au modèle ou soit aux données d�
 
 C’est le cas par exemple lorqu’on a des valeurs abérrantes (outliers or noisy data points) dans le dataset.
 
-![Source: TowardsAI](https://cdn-images-1.medium.com/max/800/1*AfKsExgtYR7yfPjZvciKXQ.png align="left")
+![Source: TowardsAI](https://cdn-images-1.medium.com/max/800/1*AfKsExgtYR7yfPjZvciKXQ.png align="center")
 
 Bien. Maintenant que nous avons une idée plus ou moins claire de ce que c’est que l’overfitting et de ses causes, voyons concrètement par un exemple comment il se manifeste.
 
@@ -76,7 +76,7 @@ df = pd.read_csv("/kaggle/input/playground-series-s4e1/train.csv")
 df.head(10)
 ```
 
-![](https://cdn-images-1.medium.com/max/800/1*XsJrEBEWtwRB3rZFDEKZ0w.jpeg align="left")
+![](https://cdn-images-1.medium.com/max/800/1*XsJrEBEWtwRB3rZFDEKZ0w.jpeg align="center")
 
 ***Petit apercu du Dataset — Bank Churn Dataset***
 
@@ -195,7 +195,7 @@ Chaque fois que nous entrainons un réseau de neuronnes (neural network), nous d
 
 Cependant, à un moment donné, le coût du test set atteindra son minimum, et après cela, commencera à augmenter même si le coût du train set continue de diminuer. Nous devons ainsi arrêter l’entrainement lorsque le coût du test/validation set atteint sa valeur minimale.
 
-![Source: MLearning.ai](https://cdn-images-1.medium.com/max/800/0*p5gD86LO2m3B7C8R.png align="left")
+![Source: MLearning.ai](https://cdn-images-1.medium.com/max/800/0*p5gD86LO2m3B7C8R.png align="center")
 
 **C’est l’explication la plus courante que vous trouverez sur l’Overfitting.**
 
@@ -256,7 +256,7 @@ Le rasoir d’Occam dit simplement qu’il ne faut pas essayer de compliquer des
 
 **En général, chaque fois que notre modèle n’obéit pas au rasoir d’Occam, il s’agit *probablement* d’un cas d’Overfitting.**
 
-![Source — https://kjtradingsystems.com/](https://cdn-images-1.medium.com/max/800/0*4jWAjyeLJRT-oMgn.jpg align="left")
+![Source — https://kjtradingsystems.com/](https://cdn-images-1.medium.com/max/800/0*4jWAjyeLJRT-oMgn.jpg align="center")
 
 ### **Conclusion**
 

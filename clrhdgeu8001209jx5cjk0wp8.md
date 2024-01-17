@@ -15,21 +15,6 @@ Nous, les humains, avons très souvent tendance à surgénéraliser les faits do
 
 Eh bien, figurez vous que tout comme nous, c’est malheureusement un piège dans lequel tombent également les algorithmes de Machine Learning quand nous ne sommes pas vigilants lors de leur entrainement. ***C’est cette situation de surgénéralisation qu’on appelle Overfitting (ou surapprentissage ou encore surajustement en français).***
 
-Dans cet article, nous allons aborder en détails, les points suivants :
-
-1. Définition de l’Overfitting
-    
-2. Les causes de l’Overfitting
-    
-3. Un cas pratique d’Overfitting
-    
-4. Une explication plus courante de l’Overfitting
-    
-5. Comment éviter l’Overfitting?
-    
-6. Le principe de simplicité ou Razoir d’Occam
-    
-
 ### 1\. Définition de l’Overfitting
 
 > *On parle d’Overfitting quand un algorithme de Machine Learning performe très très bien sur les données d’apprentissage qu’on lui fournit (training set) mais obtient relativement de mauvaises performances lorqu’il est testé sur de nouveaux exemples (test set) qu’il n’a jamais vus.*

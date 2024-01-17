@@ -3,6 +3,7 @@ title: "Le Surapprentissage ou Surajustement (overfitting) en Machine Learning"
 datePublished: Wed Jan 17 2024 05:58:14 GMT+0000 (Coordinated Universal Time)
 cuid: clrhdgeu8001209jx5cjk0wp8
 slug: le-surapprentissage-ou-surajustement-overfitting-en-machine-learning
+canonical: https://medium.com/@anyantudre/a8b079466f53
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705471135875/4dc9f028-82a7-446f-ba46-c10202e9d951.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1705471055241/70aa508a-f8be-4d8a-bc0b-06791943c79f.png
 tags: optimization, data-science, machine-learning, deep-learning, overfitting
